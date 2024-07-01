@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; 
+}
+#paspotimg  img{
+    height: 6.5cm;
+    width: 6cm; 
+    border: 2px solid rgba(147,197,253,.5); 
+    margin-right:60px;
+}
+#intro{
+    display: flex;
+    justify-content: space-between;
+}
+.backgroundimmage{
+   /* background-color: rgb(75 24 138 );*/
+    background-color:rgb(34, 5, 69) ;
+    margin-top: 200px solid black;
+}
+.hero-header {
+    background-image: url('jpg');
+    background-color:rgba(108,41,192,.4);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(147,197,253,.5); 
+    color: #fc6d6d68;
+    padding-left:10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius:1.2cm ;
+    
+    
+    
+}
+
+.hero-header h1 {
+    color:white;
+    padding-top: 150px;
+    font-size:65px;
+    font-weight: 500;
+    position:right;
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing:none;
+  display: flex-end;
+  /*animation starts of here*/
+      
+}
+
+.hero-header p {
+    font-size: 24px;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    color: #f5f3f3;
+}
+
+.navbar-nav {
+    margin-right: 20px; 
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+section {
+    padding: 2rem;
+    
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #FC6D6D;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+.ww {
+    color:ghostwhite;
+    min-height: 40px;
+    font-weight: 500;
+}
+
+.para{
+font-size: 22px;
+}
+#meet-desc{
+font-size:22px;
+color: #f5f3f3;
+}
+#list-serv{
+ font-size: 22px;
+}
+.ww hr{
+    border-top: 3px solid red;
+   
+}
+#contact  a{
+  text-size-adjust: 24px;
+  height: 24px;
+  width: 20px;
+    color:lightgray;
+    text-decoration:none;
+}
+#contact a:hover{
+     text-shadow:none;
+}
+.flex-contact{
+ display: flex;
+ justify-content: space-around;
+ 
+
+}
+.flex-contact h5{
+    height: 24px;
+}
+#meet-desc{
+    border-radius: 1.5cm;
+}
+form{
+    border:none;  
+    width:auto;
+    margin-top: 20px;
+}
+form #name ,form #email {
+    border-radius: 20px;
+    height:40px;
+    outline: none;
+    
+}
+#w3review{
+    border-radius: 10px;
+}
+form button{
+    font-size:16px;
+    color:white;
+    border:2px solid aqua;
+    box-shadow: 2px 2px 2px aqua;
+    height:40px;
+    width:120px;
+    border-radius: 20px;
+    background-color:rgb(34, 5, 69);
+}
+.form-element{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+/*chatbot*/
+.chatbot{
+    position: fixed;
+    right: 30px;
+    bottom: 90px;
+    width: 360px;
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 128px 0 rgba(105, 104, 104, 0.1), 0 32px 64px -48px rgba(0, 0, 0, 0.5);
+    transition: all 0.1s ease;
+    /* working on its display -onclick*/
+    opacity:1;
+
+}
+
+.chatbot header {
+    background: #724ae8;
+    padding: 16px 0;
+    text-align: center;
+    position:relative;
+}
+.chatbot header span{
+  position:absolute;
+  right:10px;
+  top:15px;
+  display:none;
+  color:whitesmoke
+  
+}
+.chatbot header h2{
+    color:#fff;
+    font-size: 2rem;
+}
+.chatbot .chatbox{
+    height: 300px;
+    overflow-y: auto;
+    padding:15x 20x 70x;
+}
+.chatbox .chat {
+    display: flex;
+}
+.chatbox .chat p{
+    color:#fff;
+    font-size: 0.95rem;
+    padding: 5px 5px;
+    border-radius: 10px 10px 0px 10px ;
+    background-color: #724ae8;
+    max-width: 85%;
+    margin-right: 13px;
+}
+.chatbox .outgoing {
+    margin: 20px 0;
+    display: flex-end;
+}
+.chatbox .incoming p{
+   color :black;
+   background-color: #e8e6e6;
+   border-radius: 10px 10px 10px 0px;
+}
+.chatbox .incoming span{
+     height:30px;
+     width: 30px;
+     align-self:flex;
+     background-color: #724ae8;
+     color: #fff;
+     text-align: center;
+     margin: 30px 5px 20px 2px;
+     border-radius: 4px;
+     align-self:flex-end ;
+}
+.chatbox .outgoing{
+    justify-content: flex-end;
+    margin :20px 0;
+}
+
+.chatbot .chat-input{
+    position:absolute;
+    bottom: 0;
+    width:100%;
+    background-color:#e8e6e6;
+    padding: 5px 20px;
+    border: 1px solid #ccc;
+    display: flex;
+}
+.chat-input textarea{
+    border:none ;
+    outline: none;
+    font-size: 0.95rem;
+    background-color:#e8e6e6;
+    resize: none;
+    width:100%;
+}
+.chat-input span {
+    align-self: flex-end;
+    height: 55px;
+    line-height: 55px;
+    color: #724ae8;
+    font-size: 1.35rem;
+    cursor: pointer;
+    visibility: hidden;
+  }
+  /*validation*/
+  .chat-input textarea:valid ~ span {
+    visibility: visible;
+  }
+/* above situation to get messge...iff message is theire the send sign will visible*/  
+/*chatbot button*/
+.chatbot-toggle{
+    position: fixed;
+    right: 30px;
+    bottom: 25px; 
+    height:60px;
+    width:60px;
+    background-color: #724ae8;
+    color:whitesmoke;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border:none;
+    outline: none;
+    display:flex;
+    cursor:pointer;
+    align-items: center;
+
+}
+#lastchild , #secound-child{
+    color: #e8e6e6;
+    height: 35px;
+    width: 35px; 
+}
+.chatbot-toggle span{
+    position: absolute;
+}
+.chatbot-toggle svg{
+    justify-content: center;
+    align-items: center; 
+}
+.chatbot-toggle #secound-child{
+    opacity:0; 
+}/*making its visiblity 0*/
+
+.chatbot-toggle #first-child{
+    opacity:1;
+}
+@media (max-width: 490px) {
+    .chatbot {
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+
+    .chatbot .chatbox {
+        height: 90%;
+    }
+
+    .chatbot header span {
+        display: block;
+    }
+}
+/*animation writting*/
+.wrapper{
+    align-items: center;
+  justify-content: center;
+  min-height:100vh;
+  background:none;
+  display: flex;
+}
+.wrapper .static-txt{
+  color: #fff;
+  font-size:70px;
+  font-weight: 400;
+}
+.wrapper .dynamic-txts{
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+.dynamic-txts li{
+  list-style: none;
+  color: #FC6D6D;
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100%{
+    top: -360px;
+  }
+}
+.dynamic-txts li span{
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color:rgb(34, 5, 69) ;
+  border-left: 2px solid #FC6D6D;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 30px);
+  }
+  100%{
+    left: 0;
+  }
+}
