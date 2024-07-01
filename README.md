@@ -3,7 +3,7 @@ A readme website for myself
 Home
 Header:
 CHINMAYA SAHOO
-A tagline that captures your essence or specialty ("Full-Stack Developer /designer/student")
+a tag line: ("Full-Stack Developer /designer/student")
 Introduction:
 
 A brief introduction about who you are and what you do.
